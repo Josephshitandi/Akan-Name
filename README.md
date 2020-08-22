@@ -9,6 +9,12 @@ Akan names are derived from Ghanian culture. Frequently in Ghana, children are g
 </tr>
 </table>
 
+## BDD
+| Input (Gender) | Input (Date Of Birth) | Calculated Day of Birth | Output(Akan-name) |
+| ----------- | ----------- | ----------- | ----------- |
+| Female | 19-8-2020 | Wednesday | Akua |
+| Male | 19-8-2020 | Wednesday | Kwaku |
+
 ## Demo
 Here is a working live demo :  https://Josephshitandi.github.io/Akan-Name/
 

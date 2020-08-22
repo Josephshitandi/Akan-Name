@@ -17,8 +17,8 @@ function akanName() {
     alert("Invalid Month. Please enter a valid month")
   } else if (gender === "Male") {
     alert("Your Ghanian equivalent name is " + akanMaleNames[d])
-  }if (gender === "Female") {
+  } else if (gender === "Female") {
     alert("Your Ghanian equivalent name is " + akanFemaleNames[d])
-  }else
-  alert("Invalid gender. Please choose gender")
+  } else
+    alert("Invalid gender. Please choose gender")
 }
