@@ -13,7 +13,7 @@ function akanName() {
 
   if (DD <= 0 || DD > 31) {
     alert("Invalid day. Please enter a valid date")
-  } else if (MM <= 0 MM > 12) {
+  } else if (MM <= 0 || MM > 12) {
     alert("Invalid Month. Please enter a valid month")
   } else if (gender === "Male") {
     alert("Your Ghanian equivalent name is " + akanMaleNames[d])
