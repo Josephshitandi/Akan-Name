@@ -4,9 +4,10 @@ var akanMaleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame",];
       var gender = document.getElementById("gender").value;
       var ydate = document.getElementById("ydate").value;
 
-      var CC = parseInt(ydate.substr(0, 2))
-      var YY = parseInt(ydate.substr(1, 3))
-      alert(YY)
+      var CC = parseInt(ydate.substr(0, 2));
+      var YY = parseInt(ydate.substr(1, 3));
+      var MM = parseInt(ydate.substr(5, 6));
+      alert(MM)
   }
  
   
