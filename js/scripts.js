@@ -7,7 +7,8 @@ var akanMaleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame",];
       var CC = parseInt(ydate.substr(0, 2));
       var YY = parseInt(ydate.substr(1, 3));
       var MM = parseInt(ydate.substr(5, 6));
-      alert(MM)
+      var DD = parseInt(ydate.substr(8, 9))
+      alert(DD)
   }
  
   
