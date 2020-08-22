@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akan Name Website</title>
     <link href="./css/styles.css" rel="stylesheet" type="text/css">
-    <link href="./css/bootstrap.css" rel="stylesheet" type="text/css">
+    <!-- <link href="./css/bootstrap.css" rel="stylesheet" type="text/css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 
 <body>
@@ -20,16 +22,19 @@
             </div>
             <div class="row">
                 <form>
-                    <label for="fname">DateOfBirth:</label><br>
-                    <input type="date" id="ydate" name=""><br><br>
-                    <label for="cars">Gender:</label><br>
-                    <select name="cars" id="gender">
-                        <option value=""></option>
-                        <option value="male">Male</option>
-                        <option value="female">Female</option>
-                    </select>
-                    <br><br>
-                    <button type="submit" class="btn btn-primary" onclick="getAkanName()">Submit </button>
+                    <div class="form-group">
+                        <label for="fname">DateOfBirth:</label><br>
+                        <input type="date" id="ydate" name="ydate"><br><br>
+                    </div>
+                    <div class="form-group">
+                        <label for="gender">Gender:</label><br>
+                        <select class="form-control" id="gender">
+                            <option></option>
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary" onclick="akanName()">Submit </button>
                 </form>
             </div>
             <div class="row">
@@ -85,7 +90,9 @@
 
         </div>
     </div>
-    <script src="./js/scripts.js"></script>
+
+    <script src="js/scripts.js"></script>
+
 </body>
 
 </html>
