@@ -3,8 +3,10 @@ var akanMaleNames = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame",];
   function akanName(){
       var gender = document.getElementById("gender").value;
       var ydate = document.getElementById("ydate").value;
-      var CC = parseInt(ydate.substr(0, 2));
-      alert(CC);
+
+      var CC = parseInt(ydate.substr(0, 2))
+      var YY = parseInt(ydate.substr(1, 3))
+      alert(YY)
   }
  
   
