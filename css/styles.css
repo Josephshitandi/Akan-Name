@@ -7,3 +7,25 @@ table {
 body {
     background-color: rgb(153, 212, 74);
 }
+
+h1,
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    float: center;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    body {
+        background-color: yellowgreen;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-color: yellowgreen;
+    }
+}
