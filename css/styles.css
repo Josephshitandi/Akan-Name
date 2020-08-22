@@ -13,12 +13,18 @@ h2 {
     text-align: center;
     color: rgb(139, 30, 3);
 }
-.jumbotron{
+
+.jumbotron {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.container{
-    background-color: rgb(100, 228, 237);
+
+.container {
+    background-color: rgb(193, 197, 183);
+}
+
+.copyright {
+    text-align: center;
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
