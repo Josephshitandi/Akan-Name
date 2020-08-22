@@ -11,79 +11,77 @@
 
 <body>
     <div class="container">
-
-        <div class="row">
-            <div class="jumbotron">
-                <h1>AKAN NAMES WEBSITE</h1><br>
-                <p>Welcome to Akan name website. It is a web application that takes a user's birthday and calculates
-                    the
-                    day
-                    of the week they were born and then depending on their gender outputs their Akan Name.</p>
-            </div>
-            <div class="row-cols-md-8">
-                <h2>About</h2>
-                <p>Akan name website is a web application that takes a user's birthday and calculates the day of the
-                    week they were born and then depending on their gender outputs their Akan Name.
-                    Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first
-                    name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian
-                    day
-                    names.</p>
-                <table style="width:50%">
-                    <tr>
-                        <th>WEEK DAY</th>
-                        <th>MALE</th>
-                        <th>FEMALE</th>
-                    </tr>
-                    <tr>
-                        <td>Sunday</td>
-                        <td>Kwasi</td>
-                        <td> Akosua</td>
-                    </tr>
-                    <tr>
-                        <td>Monday</td>
-                        <td>Kwadwo</td>
-                        <td> Adwoa</td>
-                    </tr>
-                    <tr>
-                        <td>Tuesday</td>
-                        <td>Kwabena</td>
-                        <td> Abenaa</td>
-                    </tr>
-                    <tr>
-                        <td>Wednesday</td>
-                        <td> Kwaku</td>
-                        <td>Akua</td>
-                    </tr>
-                    <tr>
-                        <td>Thursday</td>
-                        <td>Yaw</td>
-                        <td>Yaa</td>
-                    </tr>
-                    <tr>
-                        <td>Friday</td>
-                        <td>Kofi</td>
-                        <td>Afua</td>
-                    </tr>
-                    <tr>
-                        <td>Saturday</td>
-                        <td>Kwame</td>
-                        <td>Ama</td>
-                    </tr>
-                </table><br><br>
-                <form>
-                    <div class="form-group">
-                        <label for="fname">DateOfBirth:(Input date in this format: YYYY/MM/DD)</label><br>
-                        <input type="text" id="ydate" name="ydate"><br>
-                        <label for="gender">Gender:</label><br>
-                        <select id="gender">
-                            <option></option>
-                            <option>Male</option>
-                            <option>Female</option>
-                        </select><br><br>
-                        <button type="submit" class="btn btn-primary" onclick="akanName()">Submit </button>
-                    </div>
-                </form>
-            </div>
+        <div class="jumbotron">
+            <h1>AKAN NAMES WEBSITE</h1><br>
+            <p>Welcome to Akan name website. It is a web application that takes a user's birthday and calculates
+                the
+                day
+                of the week they were born and then depending on their gender outputs their Akan Name.</p>
+        </div>
+        <div class="row-cols-md-8">
+            <h2>About</h2>
+            <p>Akan name website is a web application that takes a user's birthday and calculates the day of the
+                week they were born and then depending on their gender outputs their Akan Name.
+                Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first
+                name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian
+                day
+                names.</p>
+            <table style="width:50%">
+                <tr>
+                    <th>WEEK DAY</th>
+                    <th>MALE</th>
+                    <th>FEMALE</th>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>Kwasi</td>
+                    <td> Akosua</td>
+                </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td>Kwadwo</td>
+                    <td> Adwoa</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>Kwabena</td>
+                    <td> Abenaa</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td> Kwaku</td>
+                    <td>Akua</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>Yaw</td>
+                    <td>Yaa</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>Kofi</td>
+                    <td>Afua</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>Kwame</td>
+                    <td>Ama</td>
+                </tr>
+            </table><br><br>
+            <p><strong> Fill the form bellow and click submit to find your Akan name.</strong></p>
+            <form>
+                <div class="form-group">
+                    <label for="fname">DateOfBirth:(Input date in this format: YYYY/MM/DD)</label><br>
+                    <input type="text" id="ydate" name="ydate"><br>
+                    <label for="gender">Gender:</label><br>
+                    <select id="gender">
+                        <option></option>
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select><br><br>
+                    <button type="submit" class="btn btn-primary" onclick="akanName()">Submit </button>
+                </div>
+            </form>
         </div>
     </div>
 

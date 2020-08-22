@@ -11,11 +11,14 @@ body {
 h1,
 h2 {
     text-align: center;
+    color: rgb(139, 30, 3);
 }
-
-form {
-    display: flex;
-    float: center;
+.jumbotron{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.container{
+    background-color: rgb(100, 228, 237);
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
