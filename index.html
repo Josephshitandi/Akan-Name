@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akan Name Website</title>
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="./css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -71,11 +71,11 @@
             <p><strong> Fill the form bellow and click submit to find your Akan name.</strong></p>
             <form>
                 <div class="form-group">
-                    <label for="fname">DateOfBirth:  (Input date in this format: YYYY/MM/DD)</label><br>
-                    <input type="text" id="ydate" name="ydate" placeholder="YYYY/MM/DD"><br>
+                    <label for="fname">DateOfBirth: (Input date in this format: YYYY/MM/DD)</label><br>
+                    <input type="date" id="ydate" name="ydate" required><br>
                     <label for="gender">Gender:</label><br>
-                    <select id="gender">
-                        <option></option>
+                    <select id="gender" required>
+                        <option value=""></option>
                         <option>Male</option>
                         <option>Female</option>
                     </select><br><br>
