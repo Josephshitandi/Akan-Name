@@ -18,7 +18,7 @@ function akanName() {
   } else {
     if (gender === "Male") {
       alert("Your Ghanian akan name is " + akanMaleNames[d])
-    } else if (gender === "Male") {
+    } else if (gender === "Female") {
       alert("Your Ghanian akan name is " + akanFemaleNames[d])
     } else
       alert("Invalid gender. Please choose your gender")
